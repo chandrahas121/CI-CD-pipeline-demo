@@ -26,8 +26,8 @@ pipeline {
 
         stage('Create Virtual Environment') {
             steps {
-                bat 'python -m venv %VENV%'
-                bat '%VENV%\\Scripts\\python.exe -m pip install --upgrade pip'
+                bat "\"C:\\Users\\chand\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe\" -m venv %VENV%"
+                bat "%VENV%\\Scripts\\python.exe -m pip install --upgrade pip"
             }
         }
 
