@@ -51,7 +51,7 @@ pipeline {
 
         stage('Push Docker Image') {
             steps {
-                withCredentials([usernamePassword(credentialsId: 'dockerhub-creds',
+                withCredentials([usernamePassword(credentialsId: 'docker-hub-creds',
                                                   usernameVariable: 'USER',
                                                   passwordVariable: 'PASS')]) {
                     bat """
