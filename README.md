@@ -109,12 +109,11 @@ The Jenkinsfile includes the following stages:
 ### Jenkins Pipeline Results
 
 #### Pipeline Overview
-![Pipeline Overview](pipeline-overview.png)
+![Pipeline Overview](Pipeline-Overview.png)
 
 #### Console Output Screenshots
-![Console Output 1](console-output1.png)
-![Console Output 2](console-output2.png)
-
+![Console Output 1](Console-Output1.png)
+![Console Output 2](Console-Output2.png)
 <details>
 <summary>Click to expand full console output</summary>
 
